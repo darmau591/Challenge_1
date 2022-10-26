@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-size: 16px;
+  margin: 25vh auto;
+  font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.container{
+  max-width: 1440px;
+  width: 95%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.card{
+  max-width: 250px;
+  padding: 0.9rem;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: white;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+}
+.card__img{
+  width: 100%;
+}
+.container__img{
+  border-radius: 7px;
+  width: 100%;
+}
+
+.card__body{
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.card__title{
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+.card__info{
+  margin-top: 10px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+
+}
+
+
+
+.challenge__title{
+  margin: 20px 0 ;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
