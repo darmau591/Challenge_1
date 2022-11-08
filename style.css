@@ -10,10 +10,12 @@
 body{
   background-color: var(--bg-body);
   font-size: 16px;
-  margin: 25vh auto;
   font-family: 'Outfit', Arial, Helvetica, sans-serif;
   text-align: center;
 
+  display: grid;
+  height: 100vh;
+  place-content: center;
 }
 
 .container{
